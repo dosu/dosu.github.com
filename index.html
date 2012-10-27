@@ -1,29 +1,82 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Dosu.github.com by dosu</title>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Slideshare Plugin for Popcorn.js : " />
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Slideshare Plugin for Popcorn.js</title>
   </head>
+
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Dosu.github.com</h1>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/dosu">View on GitHub</a>
+
+          <h1 id="project_title">Slideshare Plugin for Popcorn.js</h1>
+          <h2 id="project_tagline"></h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
         <p></p>
+  Popcorn SlideShare Plug-in Demo
+  
+  
+  
+    document.addEventListener( &amp;quot;DOMContentLoaded&amp;quot;, function () {&lt;/p&gt;
 
+&lt;p&gt;      var p = Popcorn( &amp;quot;#video&amp;quot; )
+      .slideshare({
+        start: 1,
+        end: 5,
+        slideshowurl: &amp;quot;&lt;a href="http://www.slideshare.net/storycode/storycode-immersion-5-popcornjs-deep-dive"&gt;http://www.slideshare.net/storycode/storycode-immersion-5-popcornjs-deep-dive&lt;/a&gt;&amp;quot;,
+        startslide:1,
+        target: &amp;quot;slidesharediv&amp;quot;
+      })
+      .slideshare({
+        start: 5,
+        end: 10,
+        slideshowurl: &amp;quot;&lt;a href="http://www.slideshare.net/storycode/storycode-immersion-5-popcornjs-deep-dive"&gt;http://www.slideshare.net/storycode/storycode-immersion-5-popcornjs-deep-dive&lt;/a&gt;&amp;quot;,
+        startslide:8,
+        target: &amp;quot;slidesharediv&amp;quot;
+      })&lt;br&gt;
+      .slideshare({
+        start: 10,
+        end: 40,
+        slideshowurl: &amp;quot;&lt;a href="http://www.slideshare.net/storycode/storycode-immersion-5-popcornjs-deep-dive"&gt;http://www.slideshare.net/storycode/storycode-immersion-5-popcornjs-deep-dive&lt;/a&gt;&amp;quot;,
+        startslide:16,
+        target: &amp;quot;slidesharediv&amp;quot;
+      })&lt;br&gt;
+      .play();
+    }, false );&lt;/p&gt;
 
-        <p class="view"><a href="https://github.com/dosu">View My GitHub Profile</a></p>
+&lt;p&gt;  
+  <h1>Popcorn SlideShare Plug-in Demo</h1>
+  <p>SlideShare slide #1 by 'storycode' will appear at 1 seconds and disappear at 5 seconds.
+  <br>SlideShare slide #8 by 'storycode' will appear at 5 seconds and disappear at 10 seconds.
+  <br>SlideShare slide #16  by 'storycode' will appear at 10 seconds and disappear at 40 seconds.
+  </p><div>
+    <p>      </p>
 
-      </header>
-      <section>
-        <h3>Welcome to GitHub Pages.</h3>
+<p>      </p>
+
+<p>      </p>
+<p>Your user agent does not support the HTML5 Video element.</p>
+
+<p>    </p>
+  </div>
+  <div></div>
+
+<h3>Welcome to GitHub Pages.</h3>
 
 <p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
 
@@ -50,11 +103,16 @@ $ git checkout gh-pages
 
 <p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
       </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+
     
+
   </body>
 </html>
